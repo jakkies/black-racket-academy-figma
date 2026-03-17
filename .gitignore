@@ -1,0 +1,20 @@
+# dependencies
+node_modules
+.pnpm-store
+
+# testing
+/coverage
+
+# production
+/dist
+
+# misc
+.DS_Store
+*.pem
+
+# wrangler files
+.wrangler
+.dev.vars*
+!.dev.vars.example
+.env*
+!.env.example
