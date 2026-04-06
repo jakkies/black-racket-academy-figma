@@ -13,10 +13,10 @@ export function Modal({ isOpen, onClose, children }: ModalProps) {
         className="absolute inset-0 bg-black/90 backdrop-blur-sm"
         onClick={onClose}
       />
-      <div className="relative w-full max-w-4xl bg-black border border-gray-800 shadow-2xl rounded-2xl overflow-hidden animate-in fade-in zoom-in duration-300">
+      <div className="relative w-full max-w-4xl bg-white border border-gray-200 shadow-2xl rounded-2xl overflow-hidden animate-in fade-in zoom-in duration-300">
         <button 
           onClick={onClose}
-          className="absolute top-4 right-4 z-50 p-2 text-white/50 hover:text-white transition-colors bg-black/50 rounded-full"
+          className="absolute top-4 right-4 z-50 p-2 text-gray-400 hover:text-black transition-colors hover:bg-gray-100 rounded-full"
         >
           <svg className="w-8 h-8" fill="none" stroke="currentColor" viewBox="0 0 24 24">
             <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M6 18L18 6M6 6l12 12" />

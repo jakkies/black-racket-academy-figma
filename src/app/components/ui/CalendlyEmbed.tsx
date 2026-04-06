@@ -15,7 +15,7 @@ export function CalendlyEmbed() {
   return (
     <div 
       className="calendly-inline-widget" 
-      data-url="https://calendly.com/jakkies/30min?background_color=1f1f1f&text_color=ffffff&primary_color=74e469" 
+      data-url="https://calendly.com/blackracketacademy/30min" 
       style={{ minWidth: "320px", height: "700px" }}
     />
   );
