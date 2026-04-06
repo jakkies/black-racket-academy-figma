@@ -2,6 +2,7 @@ import imgRectangle1 from "../../assets/75df0e610ff631053d6635860d5ba3d3cc8dd11d
 import imgDisciplineIcon1 from "../../assets/738423f8d6e2f6b0d64160860cf929c76fa155ab.png";
 import imgValuesIcon1 from "../../assets/37746bd8adaab25194969add25b1fa1a9e7243ff.png";
 import imgPassionIcon1 from "../../assets/8d633fa336e9232c87ee53a9d703b8ccc7eb054d.png";
+import imgFbGreenIcon2 from "../../assets/de4038d71f1e7e548bd2bb92dc27c17a25d1f4e6.png";
 import svgPaths from "../../imports/svg-1o83iag117";
 
 export function About() {
@@ -56,14 +57,12 @@ export function About() {
             </p>
             <div className="flex items-center gap-4">
               <div className="flex items-center gap-3">
-                <svg className="w-8 h-8" fill="none" viewBox="0 0 44.003 43.9999">
+                <a href="https://www.instagram.com/liam_swart06/" target="_blank" rel="noopener noreferrer"><svg className="w-8 h-8" fill="none" viewBox="0 0 44.003 43.9999">
                   <path d={svgPaths.p111a1600} fill="#D3E83D" />
                   <path d={svgPaths.p1ad335f0} fill="#D3E83D" />
                   <path d={svgPaths.p18709c80} fill="#D3E83D" />
-                </svg>
-                <svg className="w-8 h-8" fill="none" viewBox="0 0 44 44">
-                  <rect width="44" height="44" fill="#D3E83D" rx="8" />
-                </svg>
+                </svg></a>
+                <a href="https://facebook.com" target="_blank" rel="noopener noreferrer"><img src={imgFbGreenIcon2} alt="Facebook" className="w-8 h-8" /></a>
               </div>
               <p className="text-[#d3e83d] font-bold text-lg">
                 Follow Liam_Swart06 on Instagram & Facebook
@@ -84,6 +83,6 @@ export function About() {
           </div>
         </div>
       </div>
-    </section>
+    </section >
   );
 }

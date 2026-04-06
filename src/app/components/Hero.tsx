@@ -14,27 +14,26 @@ export function Hero({ onJoinClick }: { onJoinClick: () => void }) {
       </div>
 
       <div className="relative max-w-[1400px] mx-auto px-8 h-full flex items-center">
-        <div className="max-w-2xl pt-20">
-          <h1 className="text-6xl md:text-7xl lg:text-8xl font-black mb-8 leading-none">
+        <div className="max-w-2xl pt-10 sm:pt-20">
+          <h1 className="text-[44px] sm:text-5xl md:text-7xl lg:text-8xl font-black mb-6 md:mb-8 leading-none">
             <span className="text-white block">WHERE</span>
             <span className="text-white block">DEDICATION</span>
             <span className="text-[#d3e83d] block">MEETS</span>
             <span className="text-[#d3e83d] block">RESULTS</span>
           </h1>
 
-          <p className="text-white text-xl md:text-2xl mb-8 leading-relaxed">
-            Elite Padel coaching for school athletes and adults. Where
-            focus, discipline, and passion builds success.
+          <p className="text-white text-lg md:text-2xl mb-8 leading-relaxed max-w-xl">
+            Professional padel coaching for all ages and skill levels. Where focus, discipline, and passion builds success.
           </p>
 
           <div className="flex flex-col sm:flex-row gap-4">
-            <button 
-              onClick={onJoinClick}
-              className="bg-[#d3e83d] text-black px-8 py-4 font-bold text-lg hover:bg-[#c5d639] transition-colors"
+            <button
+              //onClick={onJoinClick}
+              className="bg-[#d3e83d] text-black px-6 py-3 sm:px-8 sm:py-4 font-bold text-base sm:text-lg hover:bg-[#c5d639] transition-colors cursor-pointer"
             >
-              JOIN THE ACADEMY
+              <a href="#promotion">COACHING PROMOTION</a>
             </button>
-            <a href="#programs" className="bg-black border-2 border-white text-white px-8 py-4 font-bold text-lg hover:bg-white hover:text-black transition-colors block text-center">
+            <a href="#programs" className="bg-black border-2 border-white text-white px-6 py-3 sm:px-8 sm:py-4 font-bold text-base sm:text-lg hover:bg-white hover:text-black transition-colors block text-center">
               VIEW PROGRAMS
             </a>
           </div>

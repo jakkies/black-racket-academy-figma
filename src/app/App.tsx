@@ -8,6 +8,7 @@ import { Promotion } from "./components/Promotion";
 import { CallToAction } from "./components/CallToAction";
 import { Footer } from "./components/Footer";
 import { Modal } from "./components/ui/Modal";
+import { CalendlyEmbed } from "./components/ui/CalendlyEmbed";
 
 export default function App() {
   const [isModalOpen, setIsModalOpen] = useState(false);
@@ -23,10 +24,12 @@ export default function App() {
       <Programs onJoinClick={handleJoinClick} />
       <Philosophy />
       <Promotion />
-      <CallToAction />
+      <CallToAction onJoinClick={handleJoinClick} />
       <Footer />
 
-      <Modal isOpen={isModalOpen} onClose={handleCloseModal} />
+      <Modal isOpen={isModalOpen} onClose={handleCloseModal}>
+        <CalendlyEmbed />
+      </Modal>
     </div>
   );
 }

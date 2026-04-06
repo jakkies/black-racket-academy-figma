@@ -19,7 +19,7 @@ export function Programs({ onJoinClick }: { onJoinClick: () => void }) {
               JUNIOR<br />DEVELOPMENT
             </h3>
             <p className="text-[#d3e83d] font-bold text-lg mb-8">
-              Ages 8-16 | Building foundations, raising leaders
+              Ages 8-16 | Building foundations | Raising leaders
             </p>
 
             <ul className="space-y-4 mb-8">
@@ -47,7 +47,7 @@ export function Programs({ onJoinClick }: { onJoinClick: () => void }) {
 
             <button
               onClick={onJoinClick}
-              className="w-full bg-black border-2 border-white text-white py-3 font-bold hover:bg-white hover:text-black transition-colors"
+              className="w-full bg-black border-2 border-white text-white py-3 font-bold hover:bg-white hover:text-black transition-colors cursor-pointer"
             >
               BOOK A SESSION
             </button>
@@ -86,7 +86,7 @@ export function Programs({ onJoinClick }: { onJoinClick: () => void }) {
 
             <button
               onClick={onJoinClick}
-              className="w-full bg-black border-2 border-white text-white py-3 font-bold hover:bg-white hover:text-black transition-colors"
+              className="w-full bg-black border-2 border-white text-white py-3 font-bold hover:bg-white hover:text-black transition-colors cursor-pointer"
             >
               BOOK A SESSION
             </button>
@@ -125,7 +125,7 @@ export function Programs({ onJoinClick }: { onJoinClick: () => void }) {
 
             <button
               onClick={onJoinClick}
-              className="w-full bg-black border-2 border-white text-white py-3 font-bold hover:bg-white hover:text-black transition-colors"
+              className="w-full bg-black border-2 border-white text-white py-3 font-bold hover:bg-white hover:text-black transition-colors cursor-pointer"
             >
               BOOK A SESSION
             </button>
